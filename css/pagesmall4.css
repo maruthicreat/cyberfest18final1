@@ -1,0 +1,29 @@
+
+
+@media screen and (max-width: 1500px) and (max-height: 780px){
+
+    #titlebar p{
+        display: none;
+    }
+
+    #eventlist1{
+        top: 50%;
+        left: 13%;
+    }
+
+    #eventlist2{
+        top: 20%;
+        left:33%;
+    }
+
+    #eventlist3{
+        top: 50%;
+        left: 53%;
+    }
+
+    #eventlist4{
+        top: 20%;
+        left: 73%;
+    }
+
+}

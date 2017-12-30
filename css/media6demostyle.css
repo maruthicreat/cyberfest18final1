@@ -1,0 +1,40 @@
+
+@media screen and (max-width: 425px) and (min-width: 375px){
+
+    header{
+        display: none;
+    }
+
+    .divcontent {
+        background-color: rgba(246, 247, 255,0.2);
+        width: 90%;
+        height: 80%;
+        margin: auto;
+        left: 50%;
+        top: 50%;
+    }
+
+    #fp-nav ul li a span,
+    .fp-slidesNav ul li a span {
+        background: white;
+        width: 6px;
+        height: 6px;
+        margin: -10px 0 0 -10px;
+    }
+
+
+
+    #fp-nav ul li a.active span,
+    .fp-slidesNav ul li a.active span,
+    #fp-nav ul li:hover a.active span,
+    .fp-slidesNav ul li:hover a.active span {
+        width: 12px;
+        height: 12px;
+        margin: -13px 0 0 -13px;
+        background: transparent;
+        box-sizing: border-box;
+        border: 1px solid white;
+    }
+
+
+}

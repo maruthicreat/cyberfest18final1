@@ -1,0 +1,61 @@
+
+
+@media screen and (max-width: 650px) and (min-width: 426px) {
+    .onsiteevent {
+        height: 90px;
+        width: 90px;
+        border-radius: 50%;
+        overflow: hidden;
+        position: absolute;
+        border: 4px solid black;
+        transition: all 2s;
+    }
+
+    #titlebaronsite p{
+        display: none;
+    }
+
+
+    .onsitetxt {
+        background-color: rgba(0, 0, 0, 0.2);
+        height: 100%;
+        width: 100%;
+        top: 0%;
+        left: 0%;
+        font-size: 10px;
+        position: absolute;
+        transition: background-color 1s;
+        z-index: 200;
+    }
+
+    #event1{
+        top: 15%;
+        left: -10%;
+    }
+
+    #event2{
+        top: 55%;
+        left: -10%;
+    }
+
+    #event3{
+        top: 35%;
+        left: 14%;
+    }
+
+    #event4{
+        top: 15%;
+        left: 37%;
+    }
+
+    #event5{
+        top: 55%;
+        left: 37%;
+    }
+
+    #event6{
+        top: 35%;
+        left: 60%;
+    }
+
+}

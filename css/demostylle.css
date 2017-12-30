@@ -1,0 +1,415 @@
+
+#loading {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: block;
+    background-color: #003853;
+    z-index: 1200;
+    text-align: center;
+
+}
+
+.navid{
+    position: absolute;
+    color: white;
+    z-index: 555;
+    display: none;
+}
+
+
+.fp-viewing-page1 #home{
+    top: 31%;
+    left: 4%;
+    display: block;
+    animation-name: sliderigth ,fade;
+    -webkit-animation-name: sliderigth , fade;
+    animation-fill-mode: forwards;
+    animation-duration: 0.5s , 5s;
+    -webkit-animation-duration: 0.5s , 5s;
+    animation-timing-function: ease;
+    -webkit-animation-timing-function: ease;
+}
+
+.fp-viewing-page2 #timer{
+    top: 37%;
+    left: 4%;
+    display: block;
+    animation-name: sliderigth ,fade;
+    -webkit-animation-name: sliderigth , fade;
+    animation-fill-mode: forwards;
+    animation-duration: 0.5s , 5s;
+    -webkit-animation-duration: 0.5s , 5s;
+    animation-timing-function: ease;
+    -webkit-animation-timing-function: ease;
+}
+
+.fp-viewing-page3 #ourpath{
+    top: 44%;
+    left: 4%;
+    display: block;
+    animation-name: sliderigth ,fade;
+    -webkit-animation-name: sliderigth , fade;
+    animation-fill-mode: forwards;
+    animation-duration: 0.5s , 5s;
+    -webkit-animation-duration: 0.5s , 5s;
+    animation-timing-function: ease;
+    -webkit-animation-timing-function: ease;
+}
+
+
+
+.fp-viewing-page4 #onlineev{
+    top: 50%;
+    left: 4%;
+    display: block;
+    animation-name: sliderigth ,fade;
+    -webkit-animation-name: sliderigth , fade;
+    animation-fill-mode: forwards;
+    animation-duration: 0.5s , 5s;
+    -webkit-animation-duration: 0.5s , 5s;
+    animation-timing-function: ease;
+    -webkit-animation-timing-function: ease;
+ }
+
+
+.fp-viewing-page5 #onsiteev{
+    top: 56%;
+    left: 4%;
+    display: block;
+    animation-name: sliderigth ,fade;
+    -webkit-animation-name: sliderigth , fade;
+    animation-fill-mode: forwards;
+    animation-duration: 0.5s , 5s;
+    -webkit-animation-duration: 0.5s , 5s;
+    animation-timing-function: ease;
+    -webkit-animation-timing-function: ease;
+}
+
+.fp-viewing-page6 #reg{
+    top: 63%;
+    left: 4%;
+    display: block;
+    animation-name: sliderigth ,fade;
+    -webkit-animation-name: sliderigth , fade;
+    animation-fill-mode: forwards;
+    animation-duration: 0.5s , 5s;
+    -webkit-animation-duration: 0.5s , 5s;
+    animation-timing-function: ease;
+    -webkit-animation-timing-function: ease;
+}
+
+.fp-viewing-page7 #about{
+    top: 69%;
+    left: 4%;
+    display: block;
+    animation-name: sliderigth ,fade;
+    -webkit-animation-name: sliderigth , fade;
+    animation-fill-mode: forwards;
+    animation-duration: 0.5s , 5s;
+    -webkit-animation-duration: 0.5s , 5s;
+    animation-timing-function: ease;
+    -webkit-animation-timing-function: ease;
+}
+
+
+
+.fp-viewing-page1 #sidemenu #first{
+    background-color: #00eaff;
+    color: black;
+}
+
+.fp-viewing-page2 #sidemenu #second{
+    background-color: #00eaff;
+    color: black;
+}
+
+.fp-viewing-page3 #sidemenu #third{
+    background-color: #00eaff;
+    color: black;
+}
+.fp-viewing-page4 #sidemenu #fourth{
+    background-color: #00eaff;
+    color: black;
+}
+.fp-viewing-page5 #sidemenu #fifth{
+    background-color: #00eaff;
+    color: black;
+}
+
+.fp-viewing-page6 #sidemenu #sixth{
+    background-color: #00eaff;
+    color: black;
+}
+
+.fp-viewing-page7 #sidemenu #seventh{
+    background-color: #00eaff;
+    color: black;
+}
+
+.icon{
+    height: 20px;
+    width: 20px;
+    transition-property: height , width;
+    transition-duration: 0.5s;
+}
+
+.icon:hover{
+    height: 25px;
+    width: 25px;
+}
+
+#sidemenu{
+    top: 50%;
+    position: fixed;
+    margin-top: -150px;
+    z-index: 999;
+}
+
+#sidemenu ul {
+    list-style-type: none;
+    margin-right: auto;
+    margin-top: auto;
+    padding: 0;
+    position: fixed;
+
+    opacity: inherit;
+    z-index: 999;
+    width: 3.5%;
+    text-align: center;
+    display: block;
+}
+
+#sidemenu li {
+    float: left;
+}
+
+#sidemenu  li a {
+    font-size: 50%;
+    display: block;
+    color: white;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+#sidemenu li a:active{
+    background-color: #00eaff;
+}
+
+
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+    background: white;
+    width: 8px;
+    height: 8px;
+    margin: -4px 0 0 -4px;
+}
+
+
+
+#fp-nav ul li a.active span,
+.fp-slidesNav ul li a.active span,
+#fp-nav ul li:hover a.active span,
+.fp-slidesNav ul li:hover a.active span {
+    width: 16px;
+    height: 16px;
+    margin: -8px 0 0 -8px;
+    background: transparent;
+    box-sizing: border-box;
+    border: 1px solid white;
+}
+
+
+.fp-viewing-mod0 #sidemenu li a .active{
+    background: blue;
+}
+
+#fullbackground{
+    background-image: url("../img/backfull.png");
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+#rotateback{
+    background-image: url("../img/backdeg.png");
+    position: absolute;
+    width: 16.6em;
+    height: 16.6em;
+    top: 300px;
+    left:525px;
+    background-repeat:no-repeat;
+    -webkit-animation: rotating 2s linear infinite;
+    -moz-animation: rotating 2s linear infinite;
+    -ms-animation: rotating 2s linear infinite;
+    -o-animation: rotating 2s linear infinite;
+    animation: rotating 2s linear infinite;
+}
+
+#rotatebigback{
+    background-image: url("../img/largeround.png");
+    position: absolute;
+    width: 31.6em;
+    height: 31.6em;
+    top: 320px;
+    left:865px;
+    background-repeat:no-repeat;
+    -webkit-animation: rotating 2s linear infinite;
+    -moz-animation: rotating 2s linear infinite;
+    -ms-animation: rotating 2s linear infinite;
+    -o-animation: rotating 2s linear infinite;
+    animation: rotating 2s linear infinite;
+}
+
+
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+    from {
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes rotating {
+    from {
+        -ms-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -ms-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.divcontent {
+    background-color: rgba(246, 247, 255,0.2);
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+}
+
+
+
+#mod0{
+    background : transparent;
+    visibility: visible;
+}
+
+#mod1{
+    background : transparent;
+    visibility: visible;
+}
+
+#mod2{
+    background-color: transparent;
+    visibility: visible;
+}
+
+#mod3{
+    background-color: transparent;
+    visibility: visible;
+}
+
+#mod4{
+    background : transparent;
+    visibility: visible ;
+}
+
+#mod5{
+    background : transparent;
+    visibility: visible ;
+}
+
+
+
+
+@-webkit-keyframes fade {
+    100% {
+        opacity: 0;
+    }
+}
+
+
+@keyframes slideDown1 {
+    0% {
+        transform: translateY(200%);
+    }
+    50%{
+        transform: translateY(-8%);
+    }
+    65%{
+        transform: translateY(4%);
+    }
+    80%{
+        transform: translateY(-4%);
+    }
+    95%{
+        transform: translateY(2%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+
+@keyframes slideDown {
+    0% {
+        transform: translateY(-100%);
+    }
+    50%{
+        transform: translateY(8%);
+    }
+    65%{
+        transform: translateY(-4%);
+    }
+    80%{
+        transform: translateY(4%);
+    }
+    95%{
+        transform: translateY(-2%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes sliderigth {
+    0% {
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(10%);
+    }
+    80%{
+        transform: translateX(-10%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes slideleft{
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}

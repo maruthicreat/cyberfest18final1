@@ -1,0 +1,37 @@
+
+
+@media screen and (max-width: 650px) and (min-width: 426px){
+
+    .sociconcont #mailid{
+        position: absolute;
+        left: -140px;
+        top: -5px;
+        color: white;
+        font-size: 13px;
+        font-family: 'Fira Sans', sans-serif;
+    }
+
+    .sociconcont {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: 444;
+        padding-bottom: 5px;
+        padding-right: 10px;
+    }
+
+    .sociconcont a {
+        padding: 2px;
+        opacity: 0.7;
+    }
+
+    .sociconcont img{
+        height: 20px;
+        width: 20px;
+    }
+
+    .sociconcont a:hover {
+        opacity: 1;
+    }
+
+}

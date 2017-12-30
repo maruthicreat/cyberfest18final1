@@ -1,0 +1,56 @@
+
+
+@media screen and (max-width: 1500px) and (max-height: 780px){
+
+
+    .heading{
+        color:white;
+        text-decoration: underline;
+        font-family: Impact, Charcoal, sans-serif;
+        text-align: center;
+        font-size: 100%;
+        padding-top: 5px;
+    }
+
+    .name{
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        font-size: 110%;
+        padding: 5px;
+    }
+
+    #bacimg{
+        width: 100%;
+        background-color: black;
+        height: 120px;
+        border-radius: 25px;
+    }
+
+    #cybdiscrip{
+        background-color:rgba(0, 0, 0,0.7);
+        width: 29%;
+        top: 10%;
+        height: 65%;
+        padding: 30px;
+        margin: 20px;
+        position: absolute;
+    }
+
+    #cybpara{
+        font-size: 100%;
+        color: white;
+        line-height: 200%;
+        text-align: center;
+    }
+
+
+    #cybdiscrip img{
+        margin-left: auto;
+        position: relative;
+        left: 2%;
+        top: 10px;
+        width: 400px;
+        height: 130px;
+    }
+}

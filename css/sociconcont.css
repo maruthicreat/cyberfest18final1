@@ -1,0 +1,25 @@
+
+.sociconcont #mailid{
+    position: absolute;
+    left: -200px;
+    color: white;
+    font-size: 20px;
+}
+
+
+.sociconcont{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 444;
+    padding-bottom: 10px;
+}
+
+.sociconcont a{
+    padding: 10px;
+    opacity: 0.5;
+}
+
+.sociconcont a:hover{
+    opacity: 1;
+}

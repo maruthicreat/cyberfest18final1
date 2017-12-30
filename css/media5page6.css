@@ -1,0 +1,39 @@
+ @media screen and (max-width: 370px) and (min-width: 320px){
+
+    #regstrip{
+        background-color: rgba(255, 255, 255,0.7);
+        top: 40%;
+        position: absolute;
+        border-radius: 0px 50px 50px 0px;
+        height: 40px;
+        width: 20%;
+        transition: width 2s;
+    }
+
+    .fp-viewing-page6 #regstrip{
+        width: 70%;
+    }
+
+    #regstrip p{
+        font-family: "Arial", serif;
+        font-weight: bold;
+        font-size: 20px;
+        float: right;
+        padding-right: 40px;
+        position: relative;
+        top: -10px;
+        vertical-align: middle;
+    }
+
+    #regcoming{
+        font-family: sans-serif;
+        color: rgb(0,255,255);
+        font-size: 20px;
+        font-weight: bold;
+        position: relative;
+        top: 50%;
+        left: 25%;
+    }
+
+
+}

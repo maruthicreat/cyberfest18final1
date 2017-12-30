@@ -1,0 +1,236 @@
+
+.l-left{
+    position: absolute;
+    z-index: 999;
+    top: -10px;
+    left: 0px;
+}
+
+#aluandvr{
+    position: absolute;
+    z-index: 999;
+    left: 85%;
+    font-size: 150%;
+    color: white;
+}
+
+#aluandvr .linkvral p{
+    position: relative;
+    top: -20px;
+}
+
+#aluandvr .linkvral{
+    position: relative;
+    display: inline-block;
+    transition: color 0.5s ease;
+    color: #00eaff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#aluandvr .linkvral:hover{
+    color: white;
+}
+
+#aluandvr .imgvr{
+    position: absolute;
+    left: -40px;
+
+
+}
+#aluandvr .imgalu{
+    position: absolute;
+    left: -40px;
+}
+
+
+#cyberfesttext{
+    display: inline-block;
+    color: white;
+    position: relative;
+    font-size: 100%;
+    font-family: "Equalize", fantasy;
+    left: 10px;
+    top: -23px;
+}
+
+#linktag{
+    text-decoration: none;
+}
+
+#linktag #cyblog{
+    position: absolute;
+    top: 13px;
+    left: 10px;
+}
+
+#linktag #cybtxt{
+    margin-left: 80px;
+}
+
+#topnavbar{
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    z-index: 200;
+}
+
+#toggleclick{
+    background-color: transparent;
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+    position: absolute;
+    z-index: 666;
+}
+
+
+.toggle-menu{
+    position: absolute;
+    left: 95%;
+    top: -1px;
+}
+
+.toggle-menu i {
+    position: absolute;
+    display: block;
+    height: 2px;
+    background: white;
+    width: 30px;
+    left: 10px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    z-index:300 ;
+}
+
+.toggle-menu i:nth-child(1) {
+    top: 16px;
+}
+
+.toggle-menu i:nth-child(2) {
+    top: 24px;
+}
+
+.toggle-menu i:nth-child(3) {
+    top: 32px;
+}
+
+.open-menu i:nth-child(1) {
+    top: 25px;
+    background-color: red;
+    -webkit-transform: rotateZ(45deg);
+    transform: rotateZ(45deg);
+}
+
+.open-menu i:nth-child(2) {
+    background: transparent;
+}
+
+.open-menu i:nth-child(3) {
+    top: 25px;
+    background-color: red;
+    -webkit-transform: rotateZ(-45deg);
+    transform: rotateZ(-45deg);
+}
+
+ .open-menu #topdown_slide{
+    background-color: rgba(0, 0, 0,0.4);
+    position: absolute;
+    z-index: 11;
+     height: 300px;
+     width: 100%;
+     top: 0%;
+     visibility: visible;
+     animation-name: slideDown;
+     -webkit-animation-name: slideDown;
+     animation-duration: 1s;
+     -webkit-animation-duration: 1s;
+     animation-timing-function: ease;
+     -webkit-animation-timing-function: ease;
+}
+
+ #hiddenbar a{
+     visibility: hidden;
+ }
+
+ .open-menu #topdown_slide #hiddenbar a{
+     visibility: visible;
+     color: white;
+     position: relative;
+     margin: 9px;
+     border-radius: 10px;
+     font-size: 120%;
+     padding: 30px;
+     left: 10%;
+     text-decoration: none;
+     top: 170px;
+     background-color: black;
+     transition: background-color .9s;
+     overflow: hidden;
+     height: 10px;
+     width: 10px;
+ }
+
+
+
+.open-menu #topdown_slide #hiddenbar a:hover {
+    background-color: #202a41;
+    color: #00eaff;
+}
+
+@keyframes slideDown {
+    0% {
+        transform: translateY(-100%);
+    }
+    50%{
+        transform: translateY(8%);
+    }
+    65%{
+        transform: translateY(-4%);
+    }
+    80%{
+        transform: translateY(4%);
+    }
+    95%{
+        transform: translateY(-2%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+
+@keyframes slideDown1 {
+    0% {
+        transform: translateY(200%);
+    }
+    50%{
+        transform: translateY(-8%);
+    }
+    65%{
+        transform: translateY(4%);
+    }
+    80%{
+        transform: translateY(-4%);
+    }
+    95%{
+        transform: translateY(2%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes ripple {
+    0% {
+        transform: scale(0);
+    }
+    20% {
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1);
+    }
+}

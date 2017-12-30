@@ -1,0 +1,78 @@
+
+
+
+#titlebaronsite p{
+    display: none;
+}
+
+.onsitename{
+    color: white;
+    text-align: center;
+    font-family: "Arial", serif;
+    font-weight: bold;
+    top: 60%;
+    position: relative;
+}
+
+.onsitetxt{
+    background-color: rgba(0, 0, 0,0.2);
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    transition: background-color 1s;
+    z-index: 200;
+}
+
+.onsiteevent:hover .onsitetxt,
+.onsiteevent ~ .onsitetxt{
+    background-color: rgba(0, 0, 0,0.7);
+}
+
+ .onsiteevent{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    border: 4px  solid black;
+     transition: all 2s;
+}
+
+.fp-viewing-page5 .onsiteevent{
+    transform: translateX(100%) rotate(360deg);
+    transform-style: preserve-3d;
+    transition: all 2s;
+}
+
+
+#event1{
+    top: 20%;
+    left: 5%;
+}
+
+#event2{
+    top: 60%;
+    left: 5%;
+}
+
+#event3{
+    top: 40%;
+    left: 25%;
+}
+
+#event4{
+    top: 20%;
+    left: 45%;
+}
+
+#event5{
+    top: 60%;
+    left: 45%;
+}
+
+#event6{
+    top: 40%;
+    left: 65%;
+}

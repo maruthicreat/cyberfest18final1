@@ -1,0 +1,91 @@
+@media screen and (max-width: 425px) and (min-width: 375px){
+
+
+
+    #cybdiscrip{
+        background-color:rgba(0, 0, 0,0.7);
+        width: 78%;
+        top:10%;
+        height: 32%;
+        padding: 5px;
+        margin: 20px;
+        position: absolute;
+    }
+
+    #cybdiscrip img{
+        margin-left: auto;
+        position: relative;
+        left: 70px;
+        width: 200px;
+        height: 60px;
+        top: 5px;
+    }
+
+    #bacimg{
+        width: 100%;
+        background-color: black;
+        height: 60px;
+        border-radius: 25px;
+    }
+
+    #cybpara{
+        font-size: 10px;
+        color: white;
+        line-height: 150%;
+        text-align: center;
+    }
+
+
+    #aboutline{
+        height: 2px;
+        background-color:black;
+    }
+
+    #contact{
+        background-color: rgba(0, 255, 255,0.7);
+        width: 77%;
+        height: 40%;
+        position: relative;
+        top: 50%;
+        margin: 10px 60px 60px 20px;
+        float:none ;
+
+    }
+
+    #contact h2
+    {
+        font-family: "Arial Black", Gadget, sans-serif;
+        color: black;
+        font-size: 20px;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+    }
+
+    .box{
+        background-color:rgba(0, 0, 0,0.7);
+        width: 0%;
+        position: relative;
+        top: 10px;
+        transition: width 1s;
+        padding: 0px;
+    }
+
+    .heading{
+        color:white;
+        margin: 0px;
+        text-decoration: underline;
+        font-family: Impact, Charcoal, sans-serif;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .name{
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        font-size: 10px;
+        margin: 0px;
+    }
+
+}

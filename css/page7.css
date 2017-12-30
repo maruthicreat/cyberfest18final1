@@ -1,0 +1,108 @@
+
+#cybdiscrip{
+    background-color:rgba(0, 0, 0,0.7);
+    width: 29%;
+    top: 10%;
+    height: 66%;
+    padding: 30px;
+    margin: 20px;
+    position: absolute;
+}
+
+#cybdiscrip img{
+    margin-left: auto;
+    position: relative;
+    width: 450px;
+    height: 150px;
+    left: 0%;
+    top: -25px;
+}
+
+#bacimg{
+    width: 100%;
+    background-color: black;
+    height: 120px;
+    border-radius: 25px;
+}
+
+#cybpara{
+    font-size: 100%;
+    color: white;
+    line-height: 200%;
+    text-align: center;
+}
+
+.fp-viewing-page7 #cybpara{
+    animation: grow 2s ;
+}
+
+
+#aboutline{
+    height: 6px;
+    background-color:black;
+}
+.fp-viewing-page7 #aboutline{
+    animation: grow 3s ;
+}
+
+#contact h2
+{
+    font-family: "Arial Black", Gadget, sans-serif;
+    color: black;
+    text-align: center;
+}
+
+.heading{
+    color:white;
+    text-decoration: underline;
+    font-family: Impact, Charcoal, sans-serif;
+    text-align: center;
+    font-size: 120%;
+    padding-top: 5px;
+}
+
+
+#contact{
+    background-color: rgba(0, 255, 255,0.7);
+    width: 50%;
+    height: 89%;
+    float: right;
+    padding: 20px;
+    margin: 20px;
+}
+
+.box{
+    background-color:rgba(0, 0, 0,0.7);
+    width: 0%;
+    transition: width 1s;
+}
+
+.fp-viewing-page7 .box{
+    width: 100%;
+}
+
+.name{
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-size: 130%;
+    padding: 5px;
+}
+
+
+@-webkit-keyframes grow {
+    0% {
+        -webkit-transform: scale(0);
+        -moz-transform: scale(0);
+        -o-transform: scale(0);
+        -ms-transform: scale(0);
+        transform: scale(0);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -o-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+}

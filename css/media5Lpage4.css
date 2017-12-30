@@ -1,0 +1,62 @@
+
+
+@media screen and (max-width: 650px) and (min-width: 426px){
+    .onlineeventlist{
+        height:110px;
+        width:110px;
+        background-color: rgba(0, 0, 0,0.7);;
+        position:absolute;
+        z-index: 333;
+    }
+
+    #titlebar p{
+        display: none;
+    }
+
+    .eventname{
+        color: black;
+        text-align: center;
+        font-size: 13px;
+        font-family: "Arial", serif;
+        font-weight: bold;
+    }
+
+    .onlineeventtext{
+        width:100%;
+        transition: height 1s;
+        height:35px;
+        background-color:rgba(0, 255, 255,0.7);
+        position:absolute;
+        bottom:0;
+    }
+
+    .onlineeventtext:hover .eventname,
+    .onlineeventtext:hover ~ .eventname{
+        color: white;
+        font-size: 10px;
+        position: relative;
+        top: 37%;
+    }
+
+
+    #eventlist1{
+        top: 50%;
+        left: 8%;
+    }
+
+    #eventlist2{
+        top: 20%;
+        left:30%;
+    }
+
+    #eventlist3{
+        top: 50%;
+        left: 52%;
+    }
+
+    #eventlist4{
+        top: 20%;
+        left: 73%;
+    }
+
+}

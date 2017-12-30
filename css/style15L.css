@@ -1,0 +1,86 @@
+
+
+@media screen and (max-width: 650px) and (min-width: 426px){
+    .time{
+        height: 100%;
+        background: none;
+        border: 1px solid white;
+    }
+
+    #wrapper{
+        position: absolute;
+        width:200px;
+        height:200px;
+        border-radius:50%;
+        background:rgba(0,255,255,0.4);
+        margin-top: 30px;
+        margin-left: 160px;
+        text-align: center;
+        box-shadow:0 0 10px 2px #222;
+        -webkit-box-shadow:0 0 10px 2px #222;
+        -moz-box-shadow:0 0 10px 2px #222;
+    }
+    #wrapper:before{
+        position:absolute;
+        content:"";
+        display:block;
+        width:180px;
+        height:180px;
+        left:10px;
+        border-radius:50%;
+        background: rgba(0, 0, 0, 0.7);
+        z-index:2;
+    }
+    #title{
+        position:absolute;
+        width:350px;
+        height:100px;
+        top:70px;
+        left:50%;
+        margin:0 0 0 -175.5px;
+        z-index:3;
+    }
+    #title h1{
+        color:#fff;
+        font-size:30px;
+        position: relative;
+        font-family: 'Righteous', cursive;
+        top: -40px;
+        font-weight: lighter;
+        margin: 0px;
+        text-shadow: 1px 2px 20px #000;
+        -webkit-text-shadow: 1px 2px 20px #000;
+        -moz-text-shadow: 1px 2px 20px #000;
+
+    }
+    #timer1{
+        position:absolute;
+        width: 190px;
+        overflow:hidden;
+        top:100px;
+        left:62%;
+        margin:0 0 0 -90px;
+        z-index:3;
+    }
+    .conteiner{
+        float: left;
+    }
+    #timerrr span{
+        font-size: 20px;
+        margin: 0px;
+        color: #fff;
+        font-family: 'Fira Sans', sans-serif;
+        text-shadow: 1px 2px 20px #000;
+        -webkit-text-shadow: 1px 2px 20px #000;
+        -moz-text-shadow: 1px 2px 20px #000;
+    }
+    #timerrr p{
+        text-align:center;
+        font-size: 10px;
+        font-family: 'Fira Sans', sans-serif;
+        color: #fff;
+        text-shadow: 1px 2px 20px #000;
+        -webkit-text-shadow: 1px 2px 20px #000;
+        -moz-text-shadow: 1px 2px 20px #000;
+    }
+}

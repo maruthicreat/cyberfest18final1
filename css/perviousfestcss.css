@@ -1,0 +1,182 @@
+
+
+
+.ripple {
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: rgba(0, 255, 255, 0.4);
+    transform: scale(0);
+    position: absolute;
+    opacity: 1;
+    z-index: 999;
+}
+.rippleEffect {
+    animation: rippleDrop .6s linear;
+}
+
+@keyframes rippleDrop {
+    100% {
+        transform: scale(0.2);
+        opacity: 0;
+    }
+}
+
+
+.previousfest p {
+    background-color: rgba(255, 255, 255,0.7);;
+    color: black;
+    margin: 10px;
+    padding: 20px;
+    opacity: 1;
+    border-radius: 25px;
+    position: absolute;
+    display: block;
+}
+
+.fp-viewing-page3 .previousfest p {
+    background-color: rgba(255, 255, 255,0.7);;
+    color: black;
+    margin: 10px;
+    padding: 20px;
+    opacity: 1;
+    border-radius: 25px;
+    position: absolute;
+    display: block;
+    -webkit-animation: grow 2s 1;
+}
+
+.currentfest p{
+    background-color: rgba(1, 1, 1,0.7);;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    opacity: 1;
+    font-size: 150%;
+    font-family: "Fira Code", fantasy;
+    border-radius: 25px;
+    position: absolute;
+    display: block;
+}
+
+
+
+.fp-viewing-page3 .currentfest p{
+    background-color: rgba(1, 1, 1,0.7);;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    opacity: 1;
+    font-size: 150%;
+    font-family: "Fira Code", fantasy;
+    border-radius: 25px;
+    position: absolute;
+    display: block;
+    -webkit-animation: grow 1s 1;
+    transition: background-color 2s;
+}
+
+.fp-viewing-page3 .currentfest p:hover{
+    background-color: white;
+    color: black;
+}
+
+@-webkit-keyframes grow {
+    0% {
+        -webkit-transform: scale(0);
+        -moz-transform: scale(0);
+        -o-transform: scale(0);
+        -ms-transform: scale(0);
+        transform: scale(0);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -o-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+#cyb2018 p{
+    top:43%;
+    left: 32%;
+}
+
+#cyb2000 p{
+    top: 12%;
+    left: 22%;
+}
+#cyb2001 p{
+    top: 24%;
+    left: 13%;
+}
+#cyb2002 p{
+    top: 28%;
+    left: 32%;
+}
+#cyb2003 p{
+    top: 40%;
+    left: 14%;
+}
+#cyb2004 p{
+    top: 52%;
+    left: 18%;
+}
+#cyb2005 p{
+    top: 60%;
+    left: 32%;
+}
+#cyb2006 p{
+    top: 72%;
+    left: 26%;
+}
+#cyb2007 p{
+    top: 14%;
+    left: 44%;
+}
+#cyb2008 p{
+    top: 26%;
+    left: 48%;
+}
+#cyb2009 p{
+    top: 32%;
+    left: 65%;
+}
+#cyb2010 p{
+    top: 44%;
+    left: 72%;
+}
+#cyb2011 p{
+    top: 60%;
+    left: 50%;
+}
+#cyb2012 p{
+    top: 72%;
+    left: 44%;
+}
+#cyb2013 p{
+    top: 74%;
+    left: 58%;
+}
+#cyb2014 p{
+    top: 20%;
+    left: 60%;
+}
+#cyb2015 p{
+    top: 56%;
+    left: 66%;
+}
+#cyb2016 p{
+    top: 68%;
+    left: 70%;
+}
+#cyb2017 p{
+    top: 66%;
+    left: 14%;
+}
+
+
+
+
+

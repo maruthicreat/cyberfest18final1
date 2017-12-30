@@ -1,0 +1,31 @@
+
+
+@media screen and (max-width: 1500px) and (max-height: 780px){
+    #logobackground{
+        display:block;
+        border-radius: 25px 25px 25px 25px;
+        -webkit-animation: background 10s cubic-bezier(1,0,0,1) infinite;
+        animation: background 10s cubic-bezier(1,0,0,1) infinite;
+        width: 500px;
+        height: 140px;
+        top: -20px;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #wasis{
+        display: inline-flex;
+        position: relative;
+        top: -70px;
+        left: 300px;
+        -webkit-animation: background1 10s cubic-bezier(1,0,0,1) infinite;
+        animation: background1 10s cubic-bezier(1,0,0,1) infinite;
+    }
+
+    #cybmobimg{
+        width: 500px;
+        height: 150px;
+    }
+
+}

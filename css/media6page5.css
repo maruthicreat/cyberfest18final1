@@ -1,0 +1,79 @@
+@media screen and (max-width: 425px) and (min-width: 375px){
+
+
+    #titlebaronsite{
+        background-color: rgba(1, 1, 1,0.7);;
+        width: auto;
+        position: relative;
+        top: 5px;
+        margin: 0px 5px 5px 5px;
+        height: 40px;
+    }
+
+    #titlebaronsite p{
+        text-align: center;
+        display: block;
+        font-size: 15px;
+        color: white;
+        margin: 5px;
+        font-family: 'Bungee', cursive;
+    }
+
+    .fp-viewing-page5 #titlebaronsite{
+        animation: grow 2s ;
+    }
+
+
+
+    .onsiteevent{
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        overflow: hidden;
+        position: absolute;
+        border: 4px  solid black;
+        transition: all 2s;
+    }
+
+    .onsitetxt{
+        background-color: rgba(0, 0, 0,0.2);
+        height: 100%;
+        width: 100%;
+        top: 0%;
+        left: 0%;
+        font-size: 10px;
+        position: absolute;
+        transition: background-color 1s;
+        z-index: 200;
+    }
+
+    #event1{
+        top: 25%;
+        left: -20%;
+    }
+
+    #event2{
+        top: 71%;
+        left: -20%;
+    }
+
+    #event3{
+        top: 48%;
+        left: -20%;
+    }
+
+    #event4{
+        top: 25%;
+        left: 25%;
+    }
+
+    #event5{
+        top: 71%;
+        left: 25%;
+    }
+
+    #event6{
+        top: 48%;
+        left: 25%;
+    }
+}

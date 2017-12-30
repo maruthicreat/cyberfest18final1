@@ -1,0 +1,41 @@
+
+
+@media screen and (max-width: 1500px) and (max-height: 780px){
+
+
+    #titlebaronsite p{
+        display: none;
+    }
+
+    #event1{
+        top: 20%;
+        left: 0%;
+    }
+
+    #event2{
+        top: 60%;
+        left: 0%;
+    }
+
+    #event3{
+        top: 40%;
+        left: 20%;
+    }
+
+    #event4{
+        top: 20%;
+        left: 40%;
+    }
+
+    #event5{
+        top: 60%;
+        left: 40%;
+    }
+
+    #event6{
+        top: 40%;
+        left: 60%;
+    }
+
+
+}

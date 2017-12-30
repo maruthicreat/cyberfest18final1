@@ -1,0 +1,84 @@
+
+
+#titlebar p{
+    display: none;
+}
+
+.explain{
+    visibility: hidden;
+    color: white;
+    text-align: center;
+    animation: ease;
+    transition-delay: 0.2s;
+}
+
+.eventname{
+    color: black;
+    text-align: center;
+    font-family: "Arial", serif;
+    font-weight: bold;
+}
+
+.onlineeventtext{
+    width:100%;
+    transition: height 1s;
+    height:50px;
+    background-color:rgba(0, 255, 255,0.7);
+    position:absolute;
+    bottom:0;
+}
+
+.fp-viewing-page4 .onlineeventlist {
+    -webkit-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+    transition:all 2s;
+    transform-style: preserve-3d;
+}
+
+.onlineeventtext:hover{
+    height:100%;
+    background-color: rgba(0, 0, 0,0.7);
+}
+
+.onlineeventtext:hover .eventname,
+.onlineeventtext:hover ~ .eventname{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 37%;
+}
+
+.onlineeventtext:hover .explain,
+.onlineeventtext:hover ~ .explain{
+    visibility: visible;
+}
+
+.onlineeventlist{
+    height:200px;
+    width:200px;
+    background-color: rgba(0, 0, 0,0.7);;
+    position:absolute;
+    z-index: 333;
+}
+
+#eventlist1{
+    top: 50%;
+    left: 15%;
+}
+
+#eventlist2{
+    top: 20%;
+    left:35%;
+}
+
+#eventlist3{
+    top: 50%;
+    left: 55%;
+}
+
+#eventlist4{
+    top: 20%;
+    left: 75%;
+}

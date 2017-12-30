@@ -1,0 +1,138 @@
+
+
+@media screen and (max-width: 425px) and (min-width: 375px){
+
+    .previousfest p {
+        background-color: rgba(255, 255, 255,0.7);;
+        color: black;
+        margin: 5px;
+        padding: 10px;
+        opacity: 1;
+        border-radius: 25px;
+        position: absolute;
+        font-size: 10px;
+        display: block;
+    }
+
+    .fp-viewing-page3 .previousfest p {
+        background-color: rgba(255, 255, 255,0.7);;
+        color: black;
+        margin: 5px;
+        padding: 10px;
+        opacity: 1;
+        border-radius: 25px;
+        position: absolute;
+        font-size: 10px;
+        display: block;
+        -webkit-animation: grow 2s 1;
+    }
+
+    .currentfest p{
+        background-color: rgba(1, 1, 1,0.7);;
+        color: white;
+        margin: 10px;
+        padding: 15px;
+        opacity: 1;
+        font-size: 12px;
+        font-family: 'Bungee', cursive;
+        border-radius: 25px;
+        position: absolute;
+        text-align: center;
+        display: block;
+        transition: background-color 2s;
+    }
+
+    .fp-viewing-page3 .currentfest p{
+        background-color: rgba(1, 1, 1,0.7);;
+        color: white;
+        margin: 10px;
+        padding: 15px;
+        opacity: 1;
+        font-size: 12px;
+        font-family: 'Bungee', cursive;
+        border-radius: 25px;
+        position: absolute;
+        text-align: center;
+        display: block;
+        transition: background-color 2s;
+    }
+
+    #cyb2018 p{
+        left: 15%;
+    }
+
+    #cyb2000 p{
+        top: 12%;
+        left: 6%;
+    }
+    #cyb2001 p{
+        top: 19%;
+        left: 13%;
+    }
+    #cyb2002 p{
+        top: 33%;
+        left: 14%;
+    }
+    #cyb2003 p{
+        top: 35%;
+        left: 54%;
+    }
+    #cyb2004 p{
+        top: 57%;
+        left: 18%;
+    }
+    #cyb2005 p{
+        top: 64%;
+        left: 38%;
+    }
+    #cyb2006 p{
+        top: 72%;
+        left: 32%;
+    }
+    #cyb2007 p{
+        top: 14%;
+        left: 58%;
+    }
+    #cyb2008 p{
+        top: 26%;
+        left: 18%;
+    }
+    #cyb2009 p{
+        top: 27%;
+        left: 51%;
+    }
+    #cyb2010 p{
+        top: 82%;
+        left: 28%;
+    }
+    #cyb2011 p{
+        top: 63%;
+        left: 64%;
+    }
+    #cyb2012 p{
+        top: 66%;
+        left: 10%;
+    }
+    #cyb2013 p{
+        top: 80%;
+        left: 68%;
+    }
+    #cyb2014 p{
+        top: 20%;
+        left: 54%;
+    }
+    #cyb2015 p{
+        top: 56%;
+        left: 56%;
+    }
+    #cyb2016 p{
+        top: 72%;
+        left: 60%;
+    }
+    #cyb2017 p{
+        top: 76%;
+        left: 6%;
+    }
+
+
+}

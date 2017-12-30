@@ -1,0 +1,36 @@
+
+
+@media screen and (max-width: 768px) and (min-width: 651px){
+    header{
+        display: none;
+    }
+
+    .divcontent {
+        background-color: rgba(246, 247, 255,0.2);
+        width: 90%;
+        height: 80%;
+    }
+
+    #fp-nav ul li a span,
+    .fp-slidesNav ul li a span {
+        background: white;
+        width: 4px;
+        height: 4px;
+        margin: 2px 0 0 2px;
+    }
+
+
+
+    #fp-nav ul li a.active span,
+    .fp-slidesNav ul li a.active span,
+    #fp-nav ul li:hover a.active span,
+    .fp-slidesNav ul li:hover a.active span {
+        width: 8px;
+        height: 8px;
+        margin: 0px 0 0 0px;
+        background: transparent;
+        box-sizing: border-box;
+        border: 1px solid white;
+    }
+
+}
