@@ -4,6 +4,8 @@ var check = 0;
 
 $('.onlineeventtext,.onsiteevent,.currentfest').click(function(){
     var tagid = this.id;
+    $.fn.fullpage.setMouseWheelScrolling(false);
+    $.fn.fullpage.setAllowScrolling(false);
     if(tagid ==='cyb2018')
     {
         $('#festdetails h1').text("THEME - Colossal Byto Mirage");
@@ -186,9 +188,9 @@ $('.close').click(function(){
     check=0;
     setTimeout(function(){ $('#festdetails').css({'-webkit-animation': 'grow 1s 1'}); }, 400);
     $('#blurdiv').css({'filter': 'blur(0px)'});
+    $.fn.fullpage.setMouseWheelScrolling(true);
+    $.fn.fullpage.setAllowScrolling(true);
 });
-
-
 
 
             $('#blurdiv').click(function () {
@@ -201,6 +203,8 @@ $('.close').click(function(){
                             $('#festdetails').css({'-webkit-animation': 'grow 1s 1'});
                         }, 400);
                         $('#blurdiv').css({'filter': 'blur(0px)'});
+                        $.fn.fullpage.setMouseWheelScrolling(true);
+                        $.fn.fullpage.setAllowScrolling(true);
                     }
                 }
             });

@@ -22,4 +22,3 @@ $('.hidenav,#fullpage').click(function () {
     $('#topnavbar').removeClass('open-menu');
 });
 
-$('')
