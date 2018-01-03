@@ -50,7 +50,7 @@ $('.onlineeventtext,.onsiteevent,.currentfest').click(function(){
         $('#festdetails p').html("<p> Brace your skills ,connect with us . It's time to show your" +
             "networking skills . The world is connected in a network . Better prepare yourself for " +
             "the ride of connectivity .</p>" +
-            "<h3>INSTRUCTION</h3>" +
+            "<h3>INSTRUCTIONS</h3>" +
             "<li>It is an online single player event .</li>" +
             "<li>Only registered participants can play the event .</li>" +
             "<li>Any illegal activities are strictly prohibited ,it found your entire college will be" +
@@ -97,7 +97,7 @@ $('.onlineeventtext,.onsiteevent,.currentfest').click(function(){
             "<li>Way of approach to solve and present the algorithm.</li>" +
             "<li>Innoavtion of creation .</li>" +
             "<li>Judges evaluation if final.</li>"+
-            "<h3>INSTUCTIONS</h3>" +
+            "<h3>INSTRUCTIONS</h3>" +
             "<li>Data set and its answer will be given.You will be able to write a algorithm suitable for that.</li>" +
             "<li>Mobile phones and other Electronic Devices are strictly prohibited.</li>"
         );
@@ -152,7 +152,7 @@ $('.onlineeventtext,.onsiteevent,.currentfest').click(function(){
             "<li>Your philosophies .</li>" +
             "<li>Communication.</li>" +
             "<li>Slide preparation .</li>" +
-            "<h3>INSTUCTIONS</h3>" +
+            "<h3>INSTRUCTIONS</h3>" +
             "<li>Only Registered student's must send their abstraction on or" +
             "before 18 th jan via mail.</li>" +
             "<li>Abstraction must contain minimum 250 words .</li>"+
@@ -168,7 +168,7 @@ $('.onlineeventtext,.onsiteevent,.currentfest').click(function(){
             "<h3>RULES</h3>" +
         "<li>Maximum 2 members per team .</li>" +
         "<li>Only one team per college will be permitted. </li>" +
-            "<h3>INSTUCTIONS</h3>"+
+            "<h3>INSTRUCTIONS</h3>"+
             "<h5>Round 1 - </h5>"+
             "<li>Objective type questions  .</li>" +
             "<li>The shortlisted members will be allowed for the next round. </li>"+
