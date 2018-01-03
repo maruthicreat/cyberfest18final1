@@ -39,9 +39,9 @@ $('.onlineeventtext,.onsiteevent,.currentfest').click(function(){
             "<li>Only captions that are related to the topic should be uploaded .</li>" +
             "<li>Evaluation will be held internally and also facebook likes will be considered .</li>" +
             "<h3>INSTRUCTIONS</h3>" +
-            "<li>Only 2 contestants are allowed from each college (FIRST COME FIRST UPLOAD) .</li>" +
-            "<li>Photos can be uploaded to the website from jan 5th 2018 to jan 10th 2018 .</li>" +
-            "<li>Shortlisted photos will be uploaded on jan 15th 2018 .</li>"
+            "<li>Only 2 contestants are allowed from each Department .</li>" +
+            "<li>Photos can be uploaded to the website.</li>" +
+            "<li>Shortlisted photos will be uploaded on website and social media.</li>"
            );
     }
     else if(tagid ==='eventtxt2')
@@ -51,11 +51,17 @@ $('.onlineeventtext,.onsiteevent,.currentfest').click(function(){
             "networking skills . The world is connected in a network . Better prepare yourself for " +
             "the ride of connectivity .</p>" +
             "<h3>INSTRUCTIONS</h3>" +
-            "<li>It is an online single player event .</li>" +
-            "<li>Only registered participants can play the event .</li>" +
-            "<li>Any illegal activities are strictly prohibited ,it found your entire college will be" +
-            "disqualified.</li>" +
-            "<li>The participants are required to play the event in PC/Laptops .</li>");
+            "<li>Network Related and logical Questions will be in the Server . </li>" +
+            "<li>Participant will need to write the client api code to Access the Questions .</li>" +
+            "<li>Participant Can use any Server Side Language to Access.</li>" +
+            "<li>Participant must be send their Answers in JSON format.</li>" +
+            "<li>The participants are required to play the event in PC/Laptops .</li>" +
+            "<h3>RULES</h3>" +
+            "<li>Only one Member Per Department can Participate.</li>" +
+            "<li>Any Illegal Activity found Entire College will Be Disqualified.</li>" +
+            "<h3>EVALUATION</h3>" +
+            "<li>The one with the maximum point at the end of the event is the winner .</li>" +
+            "<li>Points are evaluated automatically .</li>");
     }
     else if(tagid ==='eventtxt3')
     {
@@ -105,35 +111,68 @@ $('.onlineeventtext,.onsiteevent,.currentfest').click(function(){
     else if(tagid ==='event2')
     {
         $('#festdetails h1').text("DALVIK");
-        $('#festdetails p').html("<p>This is a challenge to showcase your technical stringth and compete" +
-            "with other technicians to become the ultimate professionals . This event provides two stages " +
-            "professionals . This event provides two stages quiz and designing paths based on android. </p>" +
+        $('#festdetails p').html("<p>This is the challenge to showcase your technical strength" +
+            " and compete with other technicians to become " +
+            "the ultimate professional. This event provides two stage which focus on quiz and designing paths.  </p>" +
             "<h5> Come on and play with your skills and let everyone to know about it .</h5>" +
+            "<h2>PRELIMINARY  ROUND </h2>" +
             "<h3>RULES</h3>" +
             "<li>Maximum 2 members per team to be allowed.</li>" +
             "<li>Only one team per college will be permitted.</li>" +
-            "<li>45 mins for 45 MCQ for preliminary round each carries a marks.</li>" +
+            "<li>45 minutes for 45 MCQ, each carries 1 mark.</li>" +
             "<li>Shortlisted candidates only allowed for final round.</li>"+
-            "<li>For final round 45 mins for developing design in android for a given constraints.</li>"+
-            "<li>The decision of Judges will be final.</li>"+
             "<h3>EVALUATION</h3>" +
-            "<li>Marks obtained from the MCQ for preliminary round.</li>" +
-            "<li>Innovative and creative ideas for the final round.</li>"
+            "<li>Based on marks obtained from the MCQ for preliminary round.</li>" +
+            "<h2>FINAL ROUND </h2>" +
+            "<h3>RULES</h3>" +
+            "<li>45 minutes for developing designs in android for a given constraints.</li>" +
+            "<li>Marks will be awarded as per the level of design and implementations of constraints. </li>" +
+            "<h3>EVALUATION</h3>" +
+            "<li>Based on innovative and creative ideas in the application for the final round.</li>" +
+            "<h3>INSTRUCTIONS</h3>" +
+            "<li>Maximum  2 members  per team  allowed . </li>" +
+            "<li>Only one team per college will be permitted.</li>" +
+            "<li>No internet connectivity will  be provided.</li>" +
+            "<li>Any malpractice leads to disqualification.</li>" +
+            "<li>Decision of the judges will be final.</li>" +
+            "<h2>DETAILS</h2>" +
+            "<li>CO-ORDINATOR :  PRIYANKA. AR  &  RAMYA. S</li>" +
+            "<li>CONTACT      :  9944361813</li>" +
+            "<li>EMAIL        :  dalvik@citcyberfest.com</li>"
         );
     }
     else if(tagid ==='event3')
     {
         $('#festdetails h1').text("TSARAVICH");
-        $('#festdetails p').html("");
+        $('#festdetails p').html("<p>WILL BE UPDATED SOON</p>");
     }
     else if(tagid ==='event4')
     {
         $('#festdetails h1').text("CODECHAOS");
-        $('#festdetails p').html("<p>Every Great change is preceded by chaos - Deepak chopra </p>" +
+        $('#festdetails p').html("<h3>Every Great change is preceded by chaos - Deepak chopra </h3>" +
             "<p>There is a chaos, a chaos in everything . Its our responsibility to sort it out to make life happier. " +
             "yeah that's the motto for this offline event . Codechaos is for those who are always curious about programming ." +
             "If you think you are a programming legend , then this event is tailor-made for you. If you are one of them," +
-            "then signup for this event that test's your logical and programming skills.</p>"
+            "then signup for this event that test's your logical and programming skills.</p>" +
+            "<h3>INSTRUCTIONS</h3>" +
+            "<h4>ROUND 1</h4>" +
+            "<li>It contains objective type questions.</li>" +
+            "<li>It contains 30 questions.</li>" +
+            "<li>Each answer carries 1 mark.</li>" +
+            "<li>Time provided :45 mins</li>" +
+            "<li>The candidates selected in this round will be allowed for the next round.</li>" +
+            "<h4>Round 2</h4>" +
+            "<li>The selected candidates will be provided with jumbled codes.</li>" +
+            "<li>The candidates have to find the logic of the problem and solve it.</li>" +
+            "<h3>RULES</h3>" +
+            "<li>Maximum one team per college.</li>" +
+            "<li>Maximum two members per team.</li>" +
+            "<li>Electronics devices are strictly prohibited.</li>" +
+            "<li>Unethical behavior could lead to disqualification.</li>" +
+            "<li>The decision of the judges will be final .</li>" +
+            "<h3>CONTACT</h3>" +
+            "<li>Elango.S - 7530079236</li>" +
+            "<li>codechaos@cyberfest.com</li>"
         );
     }
     else if(tagid ==='event5')
@@ -143,12 +182,12 @@ $('.onlineeventtext,.onsiteevent,.currentfest').click(function(){
             "zenithal ideas, come onward reserve your spaces and be " +
             "equipped to clash your ideas and make a pride and steal the " +
             "reward in your hands.</p>" +
-            "<h3>Rubrics: (Rules)</h3>" +
+            "<h3>Rubrics</h3>" +
             "<li>Maximum 2 member per team.</li>" +
             "<li>Stage is all your for 8 min.</li>" +
             "<li>Slides Are More than Enough (Avoid Video clips ).</li>" +
             "<li>Judges decision is final.</li>" +
-            "<h3>Appraisal: (Evaluation)</h3>" +
+            "<h3>Appraisal</h3>" +
             "<li>Your philosophies .</li>" +
             "<li>Communication.</li>" +
             "<li>Slide preparation .</li>" +
